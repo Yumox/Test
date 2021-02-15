@@ -1,6 +1,7 @@
 package pl.kacper;
 
 public class TestClass {
+
     public int age;
     String name;
 
@@ -9,8 +10,5 @@ public class TestClass {
 
     public TestClass(int age1, String name1) {
         age = age1;
-    }
-    public int function2(){
-        return 2;
     }
 }

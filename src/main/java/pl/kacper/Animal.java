@@ -1,19 +1,17 @@
 package pl.kacper;
 
-public class Animal {
+public abstract class Animal {
+    int weight;
+    int age;
 
-    public int age;
-    String name;
-    String sound;
+    public Animal(int weight, int age) {
+        this.weight = weight;
+        this.age = age;
+    }
 
     public Animal() {
     }
-
-    public Animal(int age, String name) {
-        this.age = age;
-        this.name = name;
-    }
-    public void noise(){
-        System.out.println("Hau");
+    public void printAnimal(){
+        System.out.println("Animal");
     }
 }

@@ -1,6 +1,6 @@
 package pl.kacper;
 
-public abstract class Animal {
+public abstract class Animal implements Interfejs {
     int weight;
     int age;
 
